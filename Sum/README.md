@@ -10,7 +10,7 @@
     >>  Результат: 6
     >  + java Sum "1 2" " 3"
     >>  Результат: 6
-    >  + java Sum " "
+    >  + ja# prog-introva Sum " "
     >>  Результат: 0
 3. Аргументы могут содержать цифры и произвольные [пробельные символы].
 4. При выполнении задания можно считать, что для представления входных данных и промежуточных результатов достаточен тип int.
@@ -20,6 +20,6 @@
 [Integer]: https://docs.oracle.com/en/java/javase/11/docs/api/java.base/https://www.kgeorgiy.info/courses/prog-intro/slides/arrays.xhtml#(1)java/lang/Integer.html
 [пробельные символы]: https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Character.html#isWhitespace(char)
 
-#####[Слайды курса][]
+##### [Слайды курса][]
 
 [Слайды курса]:https://www.kgeorgiy.info/courses/prog-intro/slides/arrays.xhtml#(1)
