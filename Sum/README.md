@@ -16,6 +16,12 @@
 4. При выполнении задания можно считать, что для представления входных данных и промежуточных результатов достаточен тип int.
 5. При выполнении задания полезно ознакомиться с документацией к классам [String] и [Integer].
 
+### Модификации
+*  Long
+    > * Входные данные являются 64-битными целыми числами 
+    > * Класс должен иметь имя SumLong
+
+
 [String]: https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
 [Integer]: https://docs.oracle.com/en/java/javase/11/docs/api/java.base/https://www.kgeorgiy.info/courses/prog-intro/slides/arrays.xhtml#(1)java/lang/Integer.html
 [пробельные символы]: https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Character.html#isWhitespace(char)
