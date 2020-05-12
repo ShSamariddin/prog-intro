@@ -1,0 +1,74 @@
+# Домашнее задание 4. Подсчет слов
+
+1. Разработайте класс WordStat, который будет подсчитывать статистику встречаемости слов во входном файле.
+2. Словом называется непрерывная последовательность букв, апострофов и тире (Unicode category Punctuation, Dash). Для подсчета статистики, слова приводятся к нижнему регистру.
+3. Выходной файл должен содержать все различные слова, встречающиеся во входном файле, в порядке их появления. Для каждого слова должна быть выведена одна строка, содержащая слово и число его вхождений во входной файл.
+4. Имена входного и выходного файла задаются в качестве аргументов командной строки. Кодировка файлов: UTF-8.
+6. Примеры работы программы:
+   > * Входной файл:
+      
+           To be, or not to be, that is the question:
+   > * Выходной файл:
+       
+              to 2
+              be 2
+              or 1
+              not 1
+              that 1
+              is 1
+              the 1
+              question 1
+   > * Входной файл:
+            
+            Monday's child is fair of face.
+            Tuesday's child is full of grace.
+   > * Выходной файл:
+                                  
+           monday's 1
+           child 2
+           is 2
+           fair 1
+           of 2
+           face 1
+           tuesday's 1
+           full 1
+           grace 1
+   > * Входной файл: 
+            
+          Шалтай-Болтай
+          Сидел на стене.
+          Шалтай-Болтай
+          Свалился во сне.
+   > * Выходной файл:
+    
+          шалтай-болтай 2
+          сидел 1
+          на 1
+          стене 1
+          свалился 1
+          во 1
+          сне 1
+
+7. [Тесты для WordStatInputTest]
+
+[Тесты для WordStatInputTest]: http://www.kgeorgiy.info/git/geo/prog-intro-2019/src/branch/master/artifacts/wordStat/WordStatInputTest.jar
+### Модификации
+*  Words
+    > * В выходном файле слова должны быть упорядочены в лексикографическом порядке
+    > * Класс должен иметь имя WordStatWords
+    > * [Тесты для WordStatWords]
+            
+     [Тесты]: http://www.kgeorgiy.info/git/geo/prog-intro-2019/src/branch/master/artifacts/wordStat/WordStatWordsTest.jar    
+* Count
+    > * В выходном файле слова должны быть упорядочены по возрастанию числа вхождений, а при равном числе вхождений – по порядку первого вхождения во входном файле
+    > * Класс должен иметь имя WordStatCount
+    > * [Тесты для WordStatCount]
+    
+* Time Limit for all modifications
+    > * Пусть n – число слов во входном файле, тогда программа должна работать за O(n log n).
+
+[Тесты для WordStatWords]: http://www.kgeorgiy.info/git/geo/prog-intro-2019/src/branch/master/artifacts/wordStat/WordStatWordsTest.jar
+[Тесты для ReverseEven]: http://www.kgeorgiy.info/git/geo/prog-intro-2019/src/branch/master/artifacts/wordStat/WordStatCountTest.jar
+##### [Слайды курса][]
+
+[Слайды курса]:kgeorgiy.info/courses/prog-intro/slides/arrays.xhtml#(1)
